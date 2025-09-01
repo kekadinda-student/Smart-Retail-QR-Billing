@@ -1,38 +1,38 @@
-# 🛍️ Smart Retail QR Billing & Customer Analytics System
+#  Smart Retail QR Billing & Customer Analytics System
 
 A **Python-based desktop billing application** built using **Tkinter** and **MySQL** for supermarkets and retail stores. 
 This system automates **QR code-based billing**, manages **customers and products**, and provides **customer analytics** to identify **Most Valued** and **Least Valued** customers.
 
 ---
 
-## **🚀 Features**
+## ** Features**
 
-### **1. User Authentication** 🔐
+### **1. User Authentication** 
 - Secure login system for staff members.
 - Validates credentials from the **MySQL database**.
 - Displays the logged-in cashier's name on the dashboard.
 
-### **2. Customer Management** 👤
+### **2. Customer Management** 
 - **Search Existing Customers** using their phone number.
 - **Register New Customers** and store their details.
 - Track **customer history** and linked billing data.
 
-### **3. QR Code-Based Product Billing** 📦
+### **3. QR Code-Based Product Billing** 
 - **QR scanning** for faster product identification.
 - Automatically fetches **product name, price, and stock** from inventory.
 - Real-time **total calculation** based on quantity and price.
 
-### **4. Smart Billing & Printing** 🧾
+### **4. Smart Billing & Printing** 
 - Generates a **detailed bill** showing purchased items and total cost.
 - Supports **direct bill printing**.
 - Stores billing data in an **analytics table** for reporting.
 
-### **5. Customer Analytics Dashboard** 📊
+### **5. Customer Analytics Dashboard** 
 - **Most Valued Customer (MVC)** → Customer with **highest spending**.
 - **Least Valued Customer (LVC)** → Customer with **lowest spending**.
 - Helps owners track **customer behavior** and plan offers.
 
-### **6. Database Management** 🗄️
+### **6. Database Management** 
 - MySQL database handles:
     - Customer details
     - Inventory data
@@ -41,7 +41,7 @@ This system automates **QR code-based billing**, manages **customers and product
 
 ---
 
-## **🛠️ Technologies Used**
+## ** Technologies Used**
 
 | **Component**        | **Technology**          |
 |----------------------|--------------------------|
@@ -54,7 +54,7 @@ This system automates **QR code-based billing**, manages **customers and product
 
 ---
 
-## **📈 Project Workflow**
+## ** Project Workflow**
 
 ```mermaid
 flowchart TD
@@ -69,7 +69,7 @@ flowchart TD
 
 ---
 
-## **📊 Customer Analytics Example**
+## ** Customer Analytics Example**
 
 | **Customer Name** | **Total Purchases (₹)** | **Category**    |
 |--------------------|-------------------------|------------------|
@@ -79,7 +79,7 @@ flowchart TD
 
 ---
 
-## **📌 How to Run**
+## ** How to Run**
 
 ```bash
 # 1. Clone the repository
